@@ -3,7 +3,7 @@
 
 <?php
 	if(!isset($_GET["msv"])) echo "Mời bạn nhập mã sinh viên vào";
-	if( isset( $_GET["msv"] )  && !is_numeric( $_GET["msv"] )  ) die( "Mày nhập hẳn hoi :| " );
+	if( isset( $_GET["msv"] )  && !is_numeric( $_GET["msv"] )  ) die( "bạn nhập sai định dạng " );
 
 	//cho thu vien vao 
 	require_once 'inc/simplehtmldom_1_5/simple_html_dom.php';
